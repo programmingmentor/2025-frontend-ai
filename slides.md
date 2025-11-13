@@ -563,6 +563,14 @@ https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
 
 ---
 
+# Specs vs rules
+
+<div class="w-full flex justify-center">
+  <img src="/specs-vs-rules.png" class="w-4/5"/>
+</div>
+
+---
+
 # AGENTS.md
 
 <div class="w-full flex justify-center">
