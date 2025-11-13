@@ -234,6 +234,8 @@ image: /vyacheslav-koldovskyy.png
   <a href="https://openai.com/codex/">https://openai.com/codex/</a>
 </div>
 
+---
+
 # Cursor
 
 <div class="w-full flex justify-center">
