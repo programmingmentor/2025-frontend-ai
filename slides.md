@@ -22,9 +22,9 @@ mdc: true
 overviewSnapshots: true
 ---
 
-# Найкращі практики розробки з AI агентами.
+# Workshop: Agentic AI SDD with Cursor IDE
 
-В'ячеслав Колдовський, SoftServe Academy
+В'ячеслав Колдовський
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -61,19 +61,21 @@ image: /vyacheslav-koldovskyy.png
 
 # В'ячеслав Колдовський
 
-- Ph.D, доцент
-- 20+ років в IT
-- SoftServe Academy Competence Manager
+- Ph.D, доцент, 20+ років в IT
+- Competence Manager, SoftServe
 - Certified Google Cloud Professional Architect, Certified nVidia Generative AI with LLMs
 - Керівник Центру Генеративного AI в IT STEP University
-- Ентузіаст Практичного AI
 - Ютубер: [youtube.com/@programmingmentorua](https://www.youtube.com/@programmingmentorua)
 - Блогер: [t.me/programmingmentor](https://t.me/programmingmentor)
 - Лінкедін: [koldovsky](https://www.linkedin.com/in/koldovsky/)
 
 ---
 
-# Що ви скажете про вайб-кодинг?
+# Вайб-кодинг 2025?
+
+<div class="w-full flex justify-center">
+  <img src="/vibe-coding-2025.png" class="w-3/5"/>
+</div>
 
 ---
 
@@ -198,18 +200,6 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
-# Cursor
-
-<div class="w-full flex justify-center">
-  <img src="/cursor.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://www.cursor.com/">https://www.cursor.com/</a>
-</div>
-
----
-
 # Windsurf
 
 <div class="w-full flex justify-center">
@@ -244,6 +234,16 @@ image: /vyacheslav-koldovskyy.png
   <a href="https://openai.com/codex/">https://openai.com/codex/</a>
 </div>
 
+# Cursor
+
+<div class="w-full flex justify-center">
+  <img src="/cursor.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://www.cursor.com/">https://www.cursor.com/</a>
+</div>
+
 ---
 layout: center
 ---
@@ -261,18 +261,48 @@ layout: center
 <v-click>
 Промпт: згенеруй аплікацію для ведення витрат.
 </v-click>
+<v-click>
+<br>
+Промпт: ось тобі детальна user story для аплікації для ведення витрат, в ній є всі деталі, які потрібні для розробки: acceptance criteria, business rules, constraints, etc.
+</v-click>
+
+<v-click>
+<br>
+Math.pow(.99, 100) = 0.3660
+</v-click>
 
 ---
 
 # Що найважливіше навчитися робити?
 
 <v-click>
-Детально пояснювати те, що саме нам потрібно.
+- Детально пояснювати що саме нам потрібно.
+</v-click>
+<v-click>
+<br>
+- На кожному кроці
 </v-click>
 
 ---
 
-# Spec Driven Development
+# Spec Driven Development 2004 року
+
+<div class="w-full flex justify-between items-center mt-2">
+  <div class="w-3/5 pr-6">
+    <ul class="list-disc pl-5">
+      <li>Оригінально термін "Specification-Driven Development" було введено у 2004 році у статті <a href="https://www.eecs.yorku.ca/~jonathan/publications/2004/xp2004.pdf">"Agile Specification-Driven Development"</a>.</li>
+      <li>Специфікація — це будь-який виконуваний конструкт, який перетворює вимоги на компільований код, причому цей конструкт є основним рушієм розробки.</li>
+      <li>Специфікаціями можуть бути дві взаємодоповнюючі речі: юніт-тести (Test Driven Development, TDD) - специфікації спільної поведінки; та контракти (Design-by-Contract, DbC) виражені у вигляді передумов та післяумов.</li>
+    </ul>
+  </div>
+  <div class="w-2/5 flex justify-end">
+    <img src="/sdd-2004.png" class="w-full"/>
+  </div>
+</div>
+
+---
+
+# Spec Driven Development 2025 року
 
 Основні принципи:
 
@@ -359,15 +389,6 @@ layout: center
   Імплементація
 </div>
 
-
----
-
-# Анонс у блозі GitHub
-
-<div class="w-full flex justify-center">
-  <img src="/github-blog.png" class="w-4/5"/>
-</div>
-
 ---
 
 # GitHub Spec Kit
@@ -381,8 +402,11 @@ layout: center
 ## Як стартувати зі Spec Kit
 
 ```bash
-# 1) Ініціалізація CLI
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+# 1) Інсталюємо CLI, ініціалізуємо проект і перевіряємо його стан
+uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
+
+specify init <PROJECT_NAME>
+specify check
 
 # 2) Формулюємо специфікацію
 /specify ... (що будуємо і чому)
@@ -414,12 +438,11 @@ uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME
 
 ## SDD і фази розробки
 
-
-| Фаза                     | Фокус                   | Що робимо                                    |
-| ------------------------ | ----------------------- | -------------------------------------------- |
-| Greenfield               | Створення з нуля        | Вимоги → специфікація → план → імплементація |
-| Brownfield               | Робота з існуючим       | Додавання фіч, рефакторинг, адаптація        |
-| Креативні дослідження    | Паралельні реалізації   | Порівняння стеків, UX‑підходів               |
+| Фаза                  | Фокус                 | Що робимо                                    |
+| --------------------- | --------------------- | -------------------------------------------- |
+| Greenfield            | Створення з нуля      | Вимоги → специфікація → план → імплементація |
+| Brownfield            | Робота з існуючим     | Додавання фіч, рефакторинг, адаптація        |
+| Креативні дослідження | Паралельні реалізації | Порівняння стеків, UX‑підходів               |
 
 ---
 
@@ -459,6 +482,78 @@ project/
     spec-template.md
     tasks-template.md
 ```
+
+---
+
+# А що у нас з brownfield?
+
+<div class="w-full flex justify-center">
+  <img src="/meme-old-new.jpg" class="w-2/5"/>
+</div>
+
+---
+
+# OpenSpec
+
+<div class="w-full flex justify-center">
+  <img src="/openspec.png" class="w-3/6"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://github.com/Fission-AI/OpenSpec">https://github.com/Fission-AI/OpenSpec</a>
+</div>
+
+---
+
+# OpenSpec lifecycle
+
+<div class="w-full flex justify-center bg-white">
+  <img src="/openspec-lifecycle.png" class="w-3/5"/>
+</div>
+
+---
+
+# Порівняння OpenSpec з GitHub Spec Kit / Kiro
+
+<div class="comparison-table">
+
+| Критерій                | OpenSpec (1→n)                                                                                                                        | Spec Kit / Kiro (0→1)                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Ключовий Фокус**      | Brownfield-first (модифікація наявної поведінки: 1→n).                                                                                | Greenfield-first (створення нових функцій з нуля: 0→1).                                         |
+| **Архітектура Сховища** | Двохпапочна модель: openspec/specs/ (поточна істина) окремо від openspec/changes/ (пропоновані оновлення).                            | Використання однієї папки для спеки або гілок (branches) для кожної специфікації.               |
+| **Управління Змінами**  | Явне відстеження змін: Усі пропозиції, завдання та дельти спеки групуються в одній папці змін (openspec/changes/feature-name/).       | Зміни (оновлення) можуть бути розпорошені між кількома файлами спеки, що ускладнює відстеження. |
+| **Робочий Процес**      | Зосереджений на життєвому циклі змін (Draft Proposal → Implement → Archive), де архівування явно зливає зміни назад у джерело істини. | Зосереджений на послідовній генерації (Specify → Plan → Tasks).                                 |
+
+</div>
+
+<style>
+.comparison-table {
+  font-size: 0.85em;
+}
+
+.comparison-table table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.comparison-table table th:nth-child(1),
+.comparison-table table td:nth-child(1) {
+  width: 25%;
+}
+
+.comparison-table table th:nth-child(2),
+.comparison-table table td:nth-child(2),
+.comparison-table table th:nth-child(3),
+.comparison-table table td:nth-child(3) {
+  width: 37.5%;
+}
+</style>
+
+---
+
+# Рівні імплементації SDD
+
+
 
 ---
 
@@ -626,8 +721,6 @@ Source https://prompt.16x.engineer/blog/chatgpt-context-window-token-limit
 <div class="w-full flex justify-center">
   <a href="https://llmstxt.org/">https://llmstxt.org/</a>
 </div>
-
-
 
 ---
 ## layout: end
