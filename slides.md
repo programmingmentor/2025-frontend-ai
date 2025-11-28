@@ -107,6 +107,15 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
+# Це не жарт
+
+<div class="w-full flex justify-center">
+  <img src="/vibe-conding-fails.jpeg" alt="Funny coding fail meme" class="w-2/5" />
+</div>
+
+
+---
+
 # Що таке сучасний фронтенд?
 
 <div class="grid grid-cols-2 gap-6 mt-4">
@@ -139,7 +148,7 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
-# Full Experience Engineer
+# FrontEnd --> Full Experience Engineer
 
 <div class="mt-4">
 
@@ -171,14 +180,6 @@ image: /vyacheslav-koldovskyy.png
   <p class="text-sm text-gray-400 mt-2">Межі між Frontend і Backend розмиваються</p>
 </div>
 
----
-
-# Це не жарт
-
-<div class="w-full flex justify-center">
-  <img src="/vibe-conding-fails.jpeg" alt="Funny coding fail meme" class="w-2/5" />
-</div>
-
 
 ---
 
@@ -204,6 +205,23 @@ image: /vyacheslav-koldovskyy.png
 <div class="w-full flex justify-center mt-12">
   <img src="/yannlecunaboutllm.png" alt="Yann LeCun about LLMs" class="w-3/5 rounded-md shadow" />
 </div>
+
+---
+
+# Красивий лендинг
+
+<div class="w-full flex justify-center mt-14">
+  <img src="/vibe-landing.png" alt="Vibe landing page" class="w-4/5 rounded-lg shadow" />
+</div>
+
+---
+
+# Джедайський курс 
+
+<div class="w-full flex justify-center mt-10">
+  <img src="/jedi-vibe.png" alt="Jedi Vibe" class="w-4/5 rounded-lg shadow" />
+</div>
+
 
 
 ---
