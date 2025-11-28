@@ -114,6 +114,31 @@ image: /vyacheslav-koldovskyy.png
 </div>
 
 
+---
+
+# А цей AI десь разом з нами в цьому приміщенні?
+
+<div class="w-full flex justify-center mt-12">
+  <img src="/ai-in-a-room.jpg" alt="AI in the room" class="w-3/5 rounded-md shadow" />
+</div>
+
+
+---
+
+# Deep Blue
+
+<div class="w-full flex justify-center mt-12">
+  <img src="/garry-kasparov-deep-blue-ibm-computer.jpg" alt="Garry Kasparov vs Deep Blue" class="w-3/5 rounded-md shadow" />
+</div>
+
+---
+
+# Yann LeCun
+
+<div class="w-full flex justify-center mt-12">
+  <img src="/yannlecunaboutllm.png" alt="Yann LeCun about LLMs" class="w-3/5 rounded-md shadow" />
+</div>
+
 
 ---
 
