@@ -107,6 +107,72 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
+# Що таке сучасний фронтенд?
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+  <div>
+    <h3 class="text-green-400 mb-2">🔄 Тоді (Interface)</h3>
+    <ul class="text-sm">
+      <li>HTML — контент</li>
+      <li>CSS — стилі</li>
+      <li>JS — інтерактивність</li>
+      <li>Fetch → API → Render</li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="text-blue-400 mb-2">⚡ Зараз (System)</h3>
+    <ul class="text-sm">
+      <li>Server/Client гібридний стейт</li>
+      <li>Data fetching, caching, invalidation</li>
+      <li>SSR, streaming, Edge rendering</li>
+      <li>Auth flows, CSP, security</li>
+      <li>DevOps, CI/CD, моніторинг</li>
+    </ul>
+  </div>
+</div>
+
+<div class="mt-6 p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-lg">
+  <p class="text-center text-yellow-300 font-semibold">
+    Frontend is not dead. The old shape of it is. 🚀
+  </p>
+</div>
+
+---
+
+# Full Experience Engineer
+
+<div class="mt-4">
+
+**Сучасний фронтенд-розробник має розуміти:**
+
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div class="p-3 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-lg">
+    <h4 class="text-purple-300 font-bold">🎨 UI/UX</h4>
+    <p class="text-sm">Компоненти, accessibility, анімації</p>
+  </div>
+  <div class="p-3 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-lg">
+    <h4 class="text-blue-300 font-bold">📊 Data Layer</h4>
+    <p class="text-sm">React Query, SWR, optimistic updates</p>
+  </div>
+  <div class="p-3 bg-gradient-to-br from-cyan-500/20 to-green-500/20 rounded-lg">
+    <h4 class="text-cyan-300 font-bold">🖥️ Server Logic</h4>
+    <p class="text-sm">RSC, Server Actions, Edge Functions</p>
+  </div>
+  <div class="p-3 bg-gradient-to-br from-green-500/20 to-yellow-500/20 rounded-lg">
+    <h4 class="text-green-300 font-bold">🚀 Deployment</h4>
+    <p class="text-sm">Serverless, Edge, CI/CD, monitoring</p>
+  </div>
+</div>
+
+<div class="mt-6 text-center">
+  <p class="text-lg">Next.js • Remix • SvelteKit • Astro</p>
+  <p class="text-sm text-gray-400 mt-2">Межі між Frontend і Backend розмиваються</p>
+</div>
+
+---
+
 # Це не жарт
 
 <div class="w-full flex justify-center">
