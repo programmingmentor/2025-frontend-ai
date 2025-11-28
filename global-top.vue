@@ -1,7 +1,7 @@
 <template>
   <div class="ssa-logo-global" v-if="$slidev.nav.currentLayout !== 'end'">
     <a href="https://career.softserveinc.com/uk-ua/softserve-academy">
-      <img src="/fw_logo.svg" alt="FW Logo" />
+      <img src="/pm-logo.jpg" alt="FW Logo" />
     </a>
   </div>
 </template>
@@ -16,8 +16,10 @@
 }
 
 .ssa-logo-global img {
-  height: 13px;
+  height: 48px;
   width: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .ssa-logo-global a {

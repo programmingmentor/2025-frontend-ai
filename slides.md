@@ -22,7 +22,7 @@ mdc: true
 overviewSnapshots: true
 ---
 
-# Workshop: Agentic AI SDD with Cursor IDE
+# Сучасний стан AI у фронтенді
 
 В'ячеслав Колдовський
 
@@ -104,6 +104,16 @@ image: /vyacheslav-koldovskyy.png
     style="object-position: center -155px"
   />
 </div>
+
+---
+
+# Це не жарт
+
+<div class="w-full flex justify-center">
+  <img src="/vibe-conding-fails.jpeg" alt="Funny coding fail meme" class="w-2/5" />
+</div>
+
+
 
 ---
 
@@ -772,6 +782,7 @@ Source https://prompt.16x.engineer/blog/chatgpt-context-window-token-limit
 
 # Дякую!
 
-<div class="w-full flex justify-center mt-20">
-  <a href="https://programmingmentor.github.io/2025-fwdays-agentic-sdd-01/">https://programmingmentor.github.io/2025-fwdays-agentic-sdd-01/</a>
+<div class="w-full flex flex-col items-center mt-20">
+  <img src="/slides-qr.png" alt="QR код для презентації" class="w-32 h-32 mb-4" />
+  <a href="https://programmingmentor.github.io/2025-frontend-ai/">https://programmingmentor.github.io/2025-frontend-ai/</a>
 </div>
