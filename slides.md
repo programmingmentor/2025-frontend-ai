@@ -218,88 +218,16 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
-# Чому ми говоримо про агенти в розробці?
+# Що по інструментам?
 
-- AI в розробці швидко прогресує і основним інструментом у 2025-му році стали AI-агенти.
-- Їх стало (за)багато.
-- З ними не все так просто:
-  - Не завжди роблять саме те, що нам потрібно.
-  - Обходяться недешево.
-  - Досягнення цілей займає багато часу.
-  - Потребують нагляду та керування.
+- **Повністю автономні**: Cognition Devin, SWE-agent, OpenHands (ex-OpenDevin), Factory.ai **Droids**
 
----
+- **Agentic IDE**: Cursor**, **Windsurf, GitHub Copilot, JetBrains Junie, AWS Kiro, Cline, Zed AI
 
-# Як ми взагалі дійшли до агентів?
+- **CLI агенти**: Claude Code, OpenAI Codex CLI, Gemini CLI, GitHub Copilot CLI, Aider
 
----
+- **Хмарні frontend-aware**: v0.dev, bolt.new, **Lovable.dev, Aura.build, Replit Agent, Builder.io, Figma Dev Mode / Make
 
-# Найпростіше використання: промпт + LLM = код
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-prompt-llm-code.png" class="w-4/5"/>
-</div>
-
----
-
-# Промт - це значно більше, ніж просто команда для LLM
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-prompt-expanded-llm-code.png" class="w-4/5"/>
-</div>
-
----
-
-# Агентний цикл
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-simple-agent.png" class="w-4/5"/>
-</div>
-
----
-
-# Агент з інструментами
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-modern-agent.png" class="w-4/5"/>
-</div>
-
----
-
-# Ключові особливості агентів
-
-- Агент має ціль, яку він прагне досягти.
-- Агент отримує контекст для виконання задач.
-- Агент має пам'ять для збереження стану між кроками.
-- Агент має інструменти для виконання задач.
-- Агент може планувати послідовність дій.
-- Агент здатний до саморефлексії та корекції помилок.
-
----
-
-# Які бувають агенти для розробки?
-
-- **Повністю автономні**: Cognition **Devin**, SWE-agent (SWE-bench), OpenDevin, AutoGPT (Dev/Code агенти)
-
-- **Агенти в IDE (Human in the loop)**: GitHub Copilot Chat, Cursor IDE, Codeium Chat, JetBrains AI Assistant / Junie, Sourcegraph Cody, AWS Q Developer, Roo Code / Cline, Kiro
-
-- **Гібридні**: GitHub Copilot Workspace, Copilot Autofix, Replit Agents, OpenDevin, SWE-agent
-
-- **CLI агенти (Terminal)**: Claude Code, Codex CLI, GitHub Copilot in the CLI, Cursor CLI, Aider, Gemini CLI
-
-- **Хмарні агенти**: Vercel V0, Replit Agent, bolt.new
-
----
-
-# bolt.new
-
-<div class="w-full flex justify-center">
-  <img src="/bolt-new.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://bolt.new/">https://bolt.new/</a>
-</div>
 
 ---
 
@@ -315,62 +243,14 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
-# repl.it agent
+# Figma Make
 
 <div class="w-full flex justify-center">
-  <img src="/replit.png" class="w-4/5"/>
+  <img src="/figma-make.png" alt="Figma Make" class="w-4/5 rounded-lg shadow" />
 </div>
 
 <div class="w-full flex justify-center">
-  <a href="https://repl.it/">https://repl.it/</a>
-</div>
-
----
-
-# Github Copilot
-
-<div class="w-full flex justify-center">
-  <img src="/github-copilot.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://copilot.github.com/">https://copilot.github.com/</a>
-</div>
-
----
-
-# Windsurf
-
-<div class="w-full flex justify-center">
-  <img src="/windsurf.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://codeium.com/windsurf">https://codeium.com/windsurf</a>
-</div>
-
----
-
-# Cline
-
-<div class="w-full flex justify-center">
-  <img src="/cline.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://cline.bot/">https://cline.bot/</a>
-</div>
-
----
-
-# Codex
-
-<div class="w-full flex justify-center">
-  <img src="/codex.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://openai.com/codex/">https://openai.com/codex/</a>
+  <a href="https://www.figma.com/product/make/">https://www.figma.com/product/make/</a>
 </div>
 
 ---
@@ -389,7 +269,7 @@ image: /vyacheslav-koldovskyy.png
 layout: center
 ---
 
-## Наскільки дорого може коштувати користуватися агентами?
+## Наскільки дорого може це коштувати?
 
 <div class="flex justify-center">
   <Tweet class="w-1/2" id="1964819755644412087" />
@@ -427,7 +307,7 @@ Math.pow(.99, 100) = 0.3660
 
 ---
 
-# Яка альтернатива вайб-кодингу?
+# То яка альтернатива вайб-кодингу?
 
 <div class="w-full flex justify-center mt-12">
   <img src="/kiro.png" alt="kiro" class="w-4/5 rounded-md shadow" />
@@ -489,14 +369,6 @@ Math.pow(.99, 100) = 0.3660
 # Kiro
 
 <div class="w-full flex justify-center">
-  <img src="/kiro.png" class="w-4/5"/>
-</div>
-
----
-
-# Kiro
-
-<div class="w-full flex justify-center">
   <img src="/kiro-requirements.png" class="w-4/5"/>
 </div>
 
@@ -506,140 +378,10 @@ Math.pow(.99, 100) = 0.3660
 
 ---
 
-# Kiro
-
-<div class="w-full flex justify-center">
-  <img src="/kiro-design.png" class="w-4/5"/>
-</div>
-
-<div class="text-center">
-  Дизайн
-</div>
-
----
-
-# Kiro
-
-<div class="w-full flex justify-center">
-  <img src="/kiro-implementation.png" class="w-4/5"/>
-</div>
-
-<div class="text-center">
-  Імплементація
-</div>
-
----
-
-# Kiro
-
-<div class="w-full flex justify-center">
-  <img src="/kiro-implementing-task.png" class="w-4/5"/>
-</div>
-
-<div class="text-center">
-  Імплементація
-</div>
-
----
-
 # GitHub Spec Kit
 
 <div class="w-full flex justify-center">
   <img src="/github-spec-kit.png" class="w-4/5"/>
-</div>
-
----
-
-## Як стартувати зі Spec Kit
-
-```bash
-# 1) Інсталюємо CLI, ініціалізуємо проект і перевіряємо його стан
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
-
-specify init <PROJECT_NAME>
-specify check
-
-# 2) Формулюємо специфікацію
-/specify ... (що будуємо і чому)
-
-# 3) Плануємо технічну імплементацію
-/plan ... (стек, архітектура)
-
-# 4) Розбиваємо на кроки та імплементуємо
-/tasks ... → просимо агента виконати
-```
-
----
-
-# GitHub Spec Kit - файли і команди, результат /specify
-
-<div class="w-full flex justify-center">
-  <img src="/github-spec-kit-init.png" class="w-4/5"/>
-</div>
-
----
-
-# GitHub Spec Kit - research
-
-<div class="w-full flex justify-center">
-  <img src="/github-spec-kit-research.png" class="w-4/5"/>
-</div>
-
----
-
-## SDD і фази розробки
-
-| Фаза                  | Фокус                 | Що робимо                                    |
-| --------------------- | --------------------- | -------------------------------------------- |
-| Greenfield            | Створення з нуля      | Вимоги → специфікація → план → імплементація |
-| Brownfield            | Робота з існуючим     | Додавання фіч, рефакторинг, адаптація        |
-| Креативні дослідження | Паралельні реалізації | Порівняння стеків, UX‑підходів               |
-
----
-
-## Експерименти з SDD
-
-- **Обираємо технології** – генерація проєктів у різних стеках
-- **Обмеження бізнесу** – дизайн‑системи, комплаєнс, платформи
-- **Гіпотези про UX/UI** – різні когорти та стилі UX/UI
-- **Будь-які інші експерименти** – паралельні варіанти, апгрейди й модернізації
-
----
-
-## Приклад промптів
-
-**/specify**
-
-> Створити застосунок для організації фотоальбомів з переглядом плиткою і перетягуванням альбомів.
-
-**/plan**
-
-> Мінімалістичний стек: Vite + HTML/CSS/JS; зберігання локально в SQLite; без завантаження фото в зовнішні сервіси.
-
----
-
-## Структура папок (приклад)
-
-```
-project/
-  memory/
-  scripts/
-  specs/
-    001-<feature>/
-    spec.md
-  templates/
-    CLAUDE-template.md
-    plan-template.md
-    spec-template.md
-    tasks-template.md
-```
-
----
-
-# А що у нас з brownfield?
-
-<div class="w-full flex justify-center">
-  <img src="/meme-old-new.jpg" class="w-2/5"/>
 </div>
 
 ---
@@ -700,37 +442,6 @@ project/
 }
 </style>
 
----
-
-# Рівні імплементації SDD
-
-| Рівень SDD                            | Опис                                                                                                                               |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Spec-first** (Спершу спека)         | Продумана спека пишеться першою, а потім використовується в робочому процесі за допомогою ШІ.                                      |
-| **Spec-anchored** (Закріплена спека)  | Спека зберігається навіть після завершення завдання та використовується для еволюції та підтримки функції протягом тривалого часу. |
-| **Spec-as-source** (Спека як джерело) | Редагується лише спека; людина ніколи не торкається коду, який повністю генерується з неї.                                         |
-
-https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
-
----
-
-# Specs vs rules
-
-<div class="w-full flex justify-center">
-  <img src="/specs-vs-rules.png" class="w-4/5"/>
-</div>
-
----
-
-# AGENTS.md
-
-<div class="w-full flex justify-center">
-  <img src="/agents-md.png" class="w-3/4"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://agents.md">agents.md</a>
-</div>
 
 ---
 layout: section
@@ -777,7 +488,9 @@ layout: section
 layout: fact
 ---
 
-Ланцюжок: Концепт дизайну -> Frontend-aware інструмент пропотитипування -> Cursor
+<p class="text-2xl font-semibold text-center">
+  Ланцюжок: Концепт дизайну → Frontend-aware інструмент пропотитипування → Cursor
+</p>
 
 ---
 
@@ -827,149 +540,6 @@ layout: fact
 - імплементимо
 - використовуємо SDD (OpenSpec)
 
-
----
-
-# Repomix
-
-<div class="w-full flex justify-center">
-  <img src="/repomix.png" class="w-4/5"/>
-</div>
-
----
-
-# Керування агентами: основні принципи
-
-- Ясна мета, обмеження, критерії приймання
-- Малі кроки, короткі контексти, відкат та відновлення
-- Права доступу й інструменти: allowlist, dry-run, approvals
-- План/Дія: режими Plan/Act, контроль бюджету і таймаутів
-
----
-
-# Контекст і знання
-
-- За потреби явно керуємо контекстом, додаємо необхідне
-- Документація - додаємо в правила, використовуємо @docs, MCP context7
-- Під час використання MCP не перегружаємо інструментами
-- Забагато контексту - не завжди добре
-
----
-
-# Безпека і контроль
-
-- Sandbox, white/black list для команд, захист видалення файлів
-- Secret management, .cursoringore
-- Перевірка diff перед виконанням
-- Обережне використання MCP
-
----
-
-# Щоб не ламався код
-
-- TDD з агентом: тести → код → фікси
-- Лінт/типи/тести на кожний крок, швидкий зворотний зв'язок
-- Local History/гілки для безпечних експериментів
-- Короткі кроки
-
----
-
-# Рейтинг LLM
-
-<div class="w-full flex justify-center">
-  <img src="/chatbot-arena-language.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://lmarena.ai/">https://lmarena.ai/</a>
-</div>
-
----
-
-# LOC to LLM tokens
-
-## React:
-
-- **React jsx (100 lines):** 700 tokens
-- **React jsx (200 lines):** 1,500 tokens
-
-## SQL:
-
-- **SQL script (100 lines):** 1,150 tokens
-- **SQL script (200 lines):** 2,500 tokens
-
-## Python:
-
-- **Python source code file (100 lines):** 1,000 tokens
-- **Python source code file (200 lines):** 1,700 tokens
-
-Source https://prompt.16x.engineer/blog/chatgpt-context-window-token-limit
-
----
-
-# MCP - Model Context Protocol
-
-<div class="w-full flex justify-center">
-  <img src="/mcp.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://modelcontextprotocol.io/">https://modelcontextprotocol.io/</a>
-</div>
-
----
-
-# MCP.so
-
-<div class="w-full flex justify-center">
-  <img src="/mcp-list.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://mcp.so/">https://mcp.so/</a>
-</div>
-
----
-
-<div class="w-full h-full flex justify-center items-center">
-  <h1 class="text-center">Tips, Tricks and Resources</h1>
-</div>
-
----
-
-# Cursor Rules
-
-<div class="w-full flex justify-center">
-  <img src="/cursor-rules.png" class="w-2/3"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://docs.cursor.com/context/rules-for-ai">https://docs.cursor.com/context/rules-for-ai</a>
-</div>
-
----
-
-# Cursor.directory
-
-<div class="w-full flex justify-center">
-  <img src="/cursor-directory.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://cursor.directory/">https://cursor.directory/</a>
-</div>
-
----
-
-# llms.txt
-
-<div class="w-full flex justify-center">
-  <img src="/llms-txt.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://llmstxt.org/">https://llmstxt.org/</a>
-</div>
 
 ---
 ## layout: end
