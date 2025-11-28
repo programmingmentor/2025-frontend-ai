@@ -140,12 +140,6 @@ image: /vyacheslav-koldovskyy.png
   </div>
 </div>
 
-<div class="mt-6 p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-lg">
-  <p class="text-center text-yellow-300 font-semibold">
-    Frontend is not dead. The old shape of it is. 🚀
-  </p>
-</div>
-
 ---
 
 # FrontEnd --> Full Experience Engineer
@@ -204,15 +198,6 @@ image: /vyacheslav-koldovskyy.png
 
 <div class="w-full flex justify-center mt-12">
   <img src="/yannlecunaboutllm.png" alt="Yann LeCun about LLMs" class="w-3/5 rounded-md shadow" />
-</div>
-
-
----
-
-# Vibe Coding: Opus 4.5 
-
-<div class="w-full flex justify-center mt-10">
-  <img src="/jedi-vibe.png" alt="Jedi Vibe" class="w-4/5 rounded-lg shadow" />
 </div>
 
 
@@ -277,7 +262,15 @@ layout: center
 
 ---
 
-# Чому агенти не завжди роблять те, що нам потрібно?
+# Красивий лендинг - що не так?
+
+<div class="w-full flex justify-center mt-14">
+  <img src="/vibe-landing.png" alt="Vibe landing page" class="w-4/5 rounded-lg shadow" />
+</div>
+
+---
+
+# Чому інструменти не завжди роблять те, що нам потрібно?
 
 <v-click>
 Промпт: згенеруй аплікацію для ведення витрат.
@@ -451,11 +444,12 @@ layout: section
 
 ---
 
-# Красивий лендинг
+# Vibe Coding: Opus 4.5
 
-<div class="w-full flex justify-center mt-14">
-  <img src="/vibe-landing.png" alt="Vibe landing page" class="w-4/5 rounded-lg shadow" />
+<div class="w-full flex justify-center mt-10">
+  <img src="/jedi-vibe.png" alt="Jedi Vibe landing example" class="w-4/5 rounded-lg shadow" />
 </div>
+
 
 ---
 
