@@ -206,22 +206,14 @@ image: /vyacheslav-koldovskyy.png
   <img src="/yannlecunaboutllm.png" alt="Yann LeCun about LLMs" class="w-3/5 rounded-md shadow" />
 </div>
 
----
-
-# Красивий лендинг
-
-<div class="w-full flex justify-center mt-14">
-  <img src="/vibe-landing.png" alt="Vibe landing page" class="w-4/5 rounded-lg shadow" />
-</div>
 
 ---
 
-# Джедайський курс 
+# Vibe Coding: Opus 4.5 
 
 <div class="w-full flex justify-center mt-10">
   <img src="/jedi-vibe.png" alt="Jedi Vibe" class="w-4/5 rounded-lg shadow" />
 </div>
-
 
 
 ---
@@ -431,6 +423,16 @@ Math.pow(.99, 100) = 0.3660
 <br>
 - На кожному кроці
 </v-click>
+
+
+---
+
+# Яка альтернатива вайб-кодингу?
+
+<div class="w-full flex justify-center mt-12">
+  <img src="/kiro.png" alt="kiro" class="w-4/5 rounded-md shadow" />
+</div>
+
 
 ---
 
@@ -734,13 +736,97 @@ https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
 layout: section
 ---
 
-# Лайфхаки
+# Практичний кейс: лендинг джедайського курсу
+
+---
+
+# Красивий лендинг
+
+<div class="w-full flex justify-center mt-14">
+  <img src="/vibe-landing.png" alt="Vibe landing page" class="w-4/5 rounded-lg shadow" />
+</div>
+
+---
+
+# Vibe Coding: Gemini 3 Pro
+
+<div class="w-full flex justify-center mt-10">
+  <img src="/vibe-jedi-gemini.png" alt="Vibe Jedi Gemini" class="w-4/5 rounded-lg shadow" />
+</div>
+
+---
+
+# Якщо розібрати фронтенд на складові
+
+- концепт дизайну
+- дизайн система
+- темплейт
+- assets (зображення, іконки, шрифти)
+- фреймворк
+- компоненти UI
+- стилі
+- бізнес-логіка
+- стейт-менеджмент
+- інтеграція з API
+- тести
+- документація
+- ...
+
 
 ---
 layout: fact
 ---
 
-Ланцюжок: Repomix -> ChatGPT (Gemini) -> Cursor
+Ланцюжок: Концепт дизайну -> Frontend-aware інструмент пропотитипування -> Cursor
+
+---
+
+# Концепт дизайну
+
+<div class="w-full flex justify-center mt-10">
+  <img src="/prototype.png" alt="Prototype design" class="w-2/5 rounded-lg shadow" />
+</div>
+
+
+---
+
+# Aura.build
+
+<div class="w-full flex justify-center mt-10">
+  <img src="/jedi-aura.build.png" alt="Jedi Aura.build" class="w-3/5 rounded-lg shadow" />
+</div>
+
+---
+
+# Процес в Aura.build
+
+- Використовуємо prompt builder
+- Просимо адаптувати існуючий шаблон
+- Даємо текстовий опис концепту дизайну
+- Налаштовуємо дизайн-систему
+- Обираємо готові ефекти з unicorn.studio
+- Додаємо власні assets (у тому числі генеровані)
+- Робимо точкові ручні правки чи через AI чат
+- Експортуємо в html
+
+---
+
+# Cursor
+
+<div class="w-full flex justify-center mt-10">
+  <img src="/jedi-cursor.png" alt="Jedi Cursor" class="w-3/5 rounded-lg shadow" />
+</div>
+
+---
+
+# Процесс в Cursor
+
+- npx create-next-app@latest
+- задаємо (генеруємо) правила
+- імпортуємо з Aura, використовуємо режим планування
+- імплементимо
+- використовуємо SDD (OpenSpec)
+
 
 ---
 
