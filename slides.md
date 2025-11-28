@@ -5,9 +5,9 @@ theme: default
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Agentic AI SDD with Cursor IDE
+title: Сучасний стан AI у фронтенді
 info: |
-  ## Agentic AI SDD with Cursor IDE
+  ## Сучасний стан AI у фронтенді
 
 # apply unocss classes to the current slide
 class: text-center
@@ -71,10 +71,38 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
-# Вайб-кодинг 2025?
+# Як виглядав фронтенд у 1996 році?
+
+<div class="w-full flex justify-center mt-20">
+  <img src="/fe-1996.png" class="w-2/5"/>
+</div>
+
+---
+
+# Як виглядав фронтенд у 2006 році?
+
+<div class="w-full flex justify-center mt-20">
+  <img src="/fe-2006.png" class="w-2/5"/>
+</div>
+
+---
+
+# Як виглядав фронтенд у 2016 році?
 
 <div class="w-full flex justify-center">
-  <img src="/vibe-coding-2025.png" class="w-3/5"/>
+  <img src="/fe-2016.png" class="w-1/5" style="object-position: center -20px"/>
+</div>
+
+---
+
+# Фронтенд 2026?
+
+<div class="w-full flex justify-center">
+  <img
+    src="/fe-2026.png"
+    class="w-3/5 object-cover"
+    style="object-position: center -155px"
+  />
 </div>
 
 ---
